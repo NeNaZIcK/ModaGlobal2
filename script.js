@@ -5,3 +5,12 @@ document.getElementById("btnProva").addEventListener("click", () => {
 });
 
 console.log('Nova funcionalitat afegida');
+
+function afegirContacte(nom, telefon) {
+    if (!nom.trim() || !telefon.trim()) {
+        console.log("No pots afegir contactes en blanc.");
+        return;
+    }
+
+    console.log("Contacte afegit:", nom, telefon);
+}
