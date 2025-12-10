@@ -14,3 +14,5 @@ function afegirContacte(nom, telefon) {
 
     console.log("Contacte afegit:", nom, telefon);
 }
+
+console.log('La Marta et saluda');
