@@ -10,3 +10,8 @@ h1 {
     padding: 15px;
     text-align: center;
 }
+
+h1:hover {
+    color: #b68ab6;
+    transition: 0.3s;
+}
